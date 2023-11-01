@@ -9,14 +9,13 @@ var menuLinks = [
 // Queries
 const mainEl = document.querySelector("main");
 const header = document.querySelector("header");
-const topMenuEl = document.createElement("nav");
+const topMenuEl = document.querySelector("#top-menu");
 
 // Functions
 mainEl.style.backgroundColor = "var(--main-bg)";
 mainEl.innerHTML = "<h1>SEI Rocks!</h1>";
 mainEl.className = "flex-ctr";
 
-topMenuEl.setAttribute("id", "top-menu");
 topMenuEl.className = "flex-around";
 topMenuEl.style.height = "100%";
 topMenuEl.style.backgroundColor = "var(--top-menu-bg)";
